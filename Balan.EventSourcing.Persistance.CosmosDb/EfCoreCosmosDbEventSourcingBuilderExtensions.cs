@@ -2,10 +2,10 @@
 using Balan.EventSourcing.Abstractions.Domain;
 using Balan.EventSourcing.Abstractions.Persistence;
 using Balan.EventSourcing.Abstractions.Serialization;
+using Balan.EventSourcing.Persistance.CosmosDb;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace Balan.EventSourcing.Persistance.CosmosDb
+namespace Microsoft.Extensions.DependencyInjection
 {
     public static class EfCoreCosmosDbEventSourcingBuilderExtensions
     {

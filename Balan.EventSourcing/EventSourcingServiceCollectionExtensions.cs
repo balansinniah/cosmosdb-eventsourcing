@@ -1,9 +1,9 @@
-﻿using Balan.EventSourcing.Abstractions.DependencyInjection;
+﻿using Balan.EventSourcing;
+using Balan.EventSourcing.Abstractions.DependencyInjection;
 using Balan.EventSourcing.Serialization.Json;
-using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Balan.EventSourcing
+namespace Microsoft.Extensions.DependencyInjection
 {
     public static class EventSourcingServiceCollectionExtensions
     {
