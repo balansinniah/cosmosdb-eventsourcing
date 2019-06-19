@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Balan.EventSourcing.Persistance/v16/Server/sqlite3
+/.vs/cosmosdb-eventsourcing/v16/.suo
+/.vs
+/Balan.EventSourcing/obj
+/Balan.EventSourcing.Abstractions/bin/Debug/netstandard2.0
+/Balan.EventSourcing.Abstractions/obj
+/Balan.EventSourcing.Persistance.CosmosDb/obj
+/Balan.EventSourcing.Serialization.Json/obj

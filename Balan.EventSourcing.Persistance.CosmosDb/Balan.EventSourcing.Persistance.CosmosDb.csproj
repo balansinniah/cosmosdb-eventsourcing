@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="3.0.0-preview6.19304.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Balan.EventSourcing.Abstractions\Balan.EventSourcing.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
